@@ -17,14 +17,13 @@
 		EA07A09B17EBE00F00E3BBDB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA07A09917EBE00F00E3BBDB /* Main_iPhone.storyboard */; };
 		EA07A09E17EBE00F00E3BBDB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA07A09C17EBE00F00E3BBDB /* Main_iPad.storyboard */; };
 		EA07A0A117EBE00F00E3BBDB /* OrbitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A0A017EBE00F00E3BBDB /* OrbitViewController.m */; };
-		EA07A0A417EBE00F00E3BBDB /* OrbitMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A0A317EBE00F00E3BBDB /* OrbitMyScene.m */; };
-		EA07A0A617EBE00F00E3BBDB /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07A0A517EBE00F00E3BBDB /* Spaceship.png */; };
 		EA07A0A817EBE00F00E3BBDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA07A0A717EBE00F00E3BBDB /* Images.xcassets */; };
 		EA07A0AF17EBE00F00E3BBDB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A0AE17EBE00F00E3BBDB /* XCTest.framework */; };
 		EA07A0B017EBE00F00E3BBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08517EBE00F00E3BBDB /* Foundation.framework */; };
 		EA07A0B117EBE00F00E3BBDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08917EBE00F00E3BBDB /* UIKit.framework */; };
 		EA07A0B917EBE00F00E3BBDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA07A0B717EBE00F00E3BBDB /* InfoPlist.strings */; };
 		EA07A0BB17EBE00F00E3BBDB /* OrbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A0BA17EBE00F00E3BBDB /* OrbitTests.m */; };
+		EA07A0C717EBE2FB00E3BBDB /* OrbitMainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A0C617EBE2FB00E3BBDB /* OrbitMainMenuScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,15 +52,14 @@
 		EA07A09D17EBE00F00E3BBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		EA07A09F17EBE00F00E3BBDB /* OrbitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbitViewController.h; sourceTree = "<group>"; };
 		EA07A0A017EBE00F00E3BBDB /* OrbitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitViewController.m; sourceTree = "<group>"; };
-		EA07A0A217EBE00F00E3BBDB /* OrbitMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbitMyScene.h; sourceTree = "<group>"; };
-		EA07A0A317EBE00F00E3BBDB /* OrbitMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitMyScene.m; sourceTree = "<group>"; };
-		EA07A0A517EBE00F00E3BBDB /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		EA07A0A717EBE00F00E3BBDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA07A0AD17EBE00F00E3BBDB /* OrbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA07A0AE17EBE00F00E3BBDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EA07A0B617EBE00F00E3BBDB /* OrbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrbitTests-Info.plist"; sourceTree = "<group>"; };
 		EA07A0B817EBE00F00E3BBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA07A0BA17EBE00F00E3BBDB /* OrbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitTests.m; sourceTree = "<group>"; };
+		EA07A0C517EBE2FB00E3BBDB /* OrbitMainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitMainMenuScene.h; sourceTree = "<group>"; };
+		EA07A0C617EBE2FB00E3BBDB /* OrbitMainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitMainMenuScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +127,8 @@
 				EA07A09C17EBE00F00E3BBDB /* Main_iPad.storyboard */,
 				EA07A09F17EBE00F00E3BBDB /* OrbitViewController.h */,
 				EA07A0A017EBE00F00E3BBDB /* OrbitViewController.m */,
-				EA07A0A217EBE00F00E3BBDB /* OrbitMyScene.h */,
-				EA07A0A317EBE00F00E3BBDB /* OrbitMyScene.m */,
-				EA07A0A517EBE00F00E3BBDB /* Spaceship.png */,
+				EA07A0C517EBE2FB00E3BBDB /* OrbitMainMenuScene.h */,
+				EA07A0C617EBE2FB00E3BBDB /* OrbitMainMenuScene.m */,
 				EA07A0A717EBE00F00E3BBDB /* Images.xcassets */,
 				EA07A08E17EBE00F00E3BBDB /* Supporting Files */,
 			);
@@ -248,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA07A0A617EBE00F00E3BBDB /* Spaceship.png in Resources */,
 				EA07A0A817EBE00F00E3BBDB /* Images.xcassets in Resources */,
 				EA07A09E17EBE00F00E3BBDB /* Main_iPad.storyboard in Resources */,
 				EA07A09B17EBE00F00E3BBDB /* Main_iPhone.storyboard in Resources */,
@@ -288,9 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA07A09417EBE00F00E3BBDB /* main.m in Sources */,
-				EA07A0A417EBE00F00E3BBDB /* OrbitMyScene.m in Sources */,
 				EA07A09817EBE00F00E3BBDB /* OrbitAppDelegate.m in Sources */,
 				EA07A0A117EBE00F00E3BBDB /* OrbitViewController.m in Sources */,
+				EA07A0C717EBE2FB00E3BBDB /* OrbitMainMenuScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +511,7 @@
 				EA07A0C017EBE00F00E3BBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA07A0C117EBE00F00E3BBDB /* Build configuration list for PBXNativeTarget "OrbitTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +520,7 @@
 				EA07A0C317EBE00F00E3BBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

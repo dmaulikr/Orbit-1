@@ -7,7 +7,7 @@
 //
 
 #import "OrbitViewController.h"
-#import "OrbitMyScene.h"
+#import "OrbitMainMenuScene.h"
 
 @implementation OrbitViewController
 
@@ -16,15 +16,19 @@
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+//    skView.showsFPS = YES;
+//    skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [OrbitMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [OrbitMainMenuScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
     [skView presentScene:scene];
+}
+
+- (IBAction)playButtonPressed {
+    
 }
 
 - (BOOL)shouldAutorotate {
