@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA07A08617EBE00F00E3BBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08517EBE00F00E3BBDB /* Foundation.framework */; };
+		EA07A08817EBE00F00E3BBDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08717EBE00F00E3BBDB /* CoreGraphics.framework */; };
+		EA07A08A17EBE00F00E3BBDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08917EBE00F00E3BBDB /* UIKit.framework */; };
+		EA07A08C17EBE00F00E3BBDB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08B17EBE00F00E3BBDB /* SpriteKit.framework */; };
+		EA07A09217EBE00F00E3BBDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA07A09017EBE00F00E3BBDB /* InfoPlist.strings */; };
+		EA07A09417EBE00F00E3BBDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A09317EBE00F00E3BBDB /* main.m */; };
+		EA07A09817EBE00F00E3BBDB /* OrbitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A09717EBE00F00E3BBDB /* OrbitAppDelegate.m */; };
+		EA07A09B17EBE00F00E3BBDB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA07A09917EBE00F00E3BBDB /* Main_iPhone.storyboard */; };
+		EA07A09E17EBE00F00E3BBDB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA07A09C17EBE00F00E3BBDB /* Main_iPad.storyboard */; };
+		EA07A0A117EBE00F00E3BBDB /* OrbitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A0A017EBE00F00E3BBDB /* OrbitViewController.m */; };
+		EA07A0A417EBE00F00E3BBDB /* OrbitMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A0A317EBE00F00E3BBDB /* OrbitMyScene.m */; };
+		EA07A0A617EBE00F00E3BBDB /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07A0A517EBE00F00E3BBDB /* Spaceship.png */; };
+		EA07A0A817EBE00F00E3BBDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA07A0A717EBE00F00E3BBDB /* Images.xcassets */; };
+		EA07A0AF17EBE00F00E3BBDB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A0AE17EBE00F00E3BBDB /* XCTest.framework */; };
+		EA07A0B017EBE00F00E3BBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08517EBE00F00E3BBDB /* Foundation.framework */; };
+		EA07A0B117EBE00F00E3BBDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07A08917EBE00F00E3BBDB /* UIKit.framework */; };
+		EA07A0B917EBE00F00E3BBDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA07A0B717EBE00F00E3BBDB /* InfoPlist.strings */; };
+		EA07A0BB17EBE00F00E3BBDB /* OrbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07A0BA17EBE00F00E3BBDB /* OrbitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA07A0B217EBE00F00E3BBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA07A07A17EBE00F00E3BBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA07A08117EBE00F00E3BBDB;
+			remoteInfo = Orbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA07A08217EBE00F00E3BBDB /* Orbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07A08517EBE00F00E3BBDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA07A08717EBE00F00E3BBDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA07A08917EBE00F00E3BBDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA07A08B17EBE00F00E3BBDB /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EA07A08F17EBE00F00E3BBDB /* Orbit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orbit-Info.plist"; sourceTree = "<group>"; };
+		EA07A09117EBE00F00E3BBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA07A09317EBE00F00E3BBDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA07A09517EBE00F00E3BBDB /* Orbit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orbit-Prefix.pch"; sourceTree = "<group>"; };
+		EA07A09617EBE00F00E3BBDB /* OrbitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbitAppDelegate.h; sourceTree = "<group>"; };
+		EA07A09717EBE00F00E3BBDB /* OrbitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitAppDelegate.m; sourceTree = "<group>"; };
+		EA07A09A17EBE00F00E3BBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EA07A09D17EBE00F00E3BBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EA07A09F17EBE00F00E3BBDB /* OrbitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbitViewController.h; sourceTree = "<group>"; };
+		EA07A0A017EBE00F00E3BBDB /* OrbitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitViewController.m; sourceTree = "<group>"; };
+		EA07A0A217EBE00F00E3BBDB /* OrbitMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbitMyScene.h; sourceTree = "<group>"; };
+		EA07A0A317EBE00F00E3BBDB /* OrbitMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitMyScene.m; sourceTree = "<group>"; };
+		EA07A0A517EBE00F00E3BBDB /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		EA07A0A717EBE00F00E3BBDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA07A0AD17EBE00F00E3BBDB /* OrbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07A0AE17EBE00F00E3BBDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA07A0B617EBE00F00E3BBDB /* OrbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrbitTests-Info.plist"; sourceTree = "<group>"; };
+		EA07A0B817EBE00F00E3BBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA07A0BA17EBE00F00E3BBDB /* OrbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA07A07F17EBE00F00E3BBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07A08817EBE00F00E3BBDB /* CoreGraphics.framework in Frameworks */,
+				EA07A08A17EBE00F00E3BBDB /* UIKit.framework in Frameworks */,
+				EA07A08C17EBE00F00E3BBDB /* SpriteKit.framework in Frameworks */,
+				EA07A08617EBE00F00E3BBDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07A0AA17EBE00F00E3BBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07A0AF17EBE00F00E3BBDB /* XCTest.framework in Frameworks */,
+				EA07A0B117EBE00F00E3BBDB /* UIKit.framework in Frameworks */,
+				EA07A0B017EBE00F00E3BBDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA07A07917EBE00F00E3BBDB = {
+			isa = PBXGroup;
+			children = (
+				EA07A08D17EBE00F00E3BBDB /* Orbit */,
+				EA07A0B417EBE00F00E3BBDB /* OrbitTests */,
+				EA07A08417EBE00F00E3BBDB /* Frameworks */,
+				EA07A08317EBE00F00E3BBDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA07A08317EBE00F00E3BBDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA07A08217EBE00F00E3BBDB /* Orbit.app */,
+				EA07A0AD17EBE00F00E3BBDB /* OrbitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA07A08417EBE00F00E3BBDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA07A08517EBE00F00E3BBDB /* Foundation.framework */,
+				EA07A08717EBE00F00E3BBDB /* CoreGraphics.framework */,
+				EA07A08917EBE00F00E3BBDB /* UIKit.framework */,
+				EA07A08B17EBE00F00E3BBDB /* SpriteKit.framework */,
+				EA07A0AE17EBE00F00E3BBDB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA07A08D17EBE00F00E3BBDB /* Orbit */ = {
+			isa = PBXGroup;
+			children = (
+				EA07A09617EBE00F00E3BBDB /* OrbitAppDelegate.h */,
+				EA07A09717EBE00F00E3BBDB /* OrbitAppDelegate.m */,
+				EA07A09917EBE00F00E3BBDB /* Main_iPhone.storyboard */,
+				EA07A09C17EBE00F00E3BBDB /* Main_iPad.storyboard */,
+				EA07A09F17EBE00F00E3BBDB /* OrbitViewController.h */,
+				EA07A0A017EBE00F00E3BBDB /* OrbitViewController.m */,
+				EA07A0A217EBE00F00E3BBDB /* OrbitMyScene.h */,
+				EA07A0A317EBE00F00E3BBDB /* OrbitMyScene.m */,
+				EA07A0A517EBE00F00E3BBDB /* Spaceship.png */,
+				EA07A0A717EBE00F00E3BBDB /* Images.xcassets */,
+				EA07A08E17EBE00F00E3BBDB /* Supporting Files */,
+			);
+			path = Orbit;
+			sourceTree = "<group>";
+		};
+		EA07A08E17EBE00F00E3BBDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA07A08F17EBE00F00E3BBDB /* Orbit-Info.plist */,
+				EA07A09017EBE00F00E3BBDB /* InfoPlist.strings */,
+				EA07A09317EBE00F00E3BBDB /* main.m */,
+				EA07A09517EBE00F00E3BBDB /* Orbit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA07A0B417EBE00F00E3BBDB /* OrbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA07A0BA17EBE00F00E3BBDB /* OrbitTests.m */,
+				EA07A0B517EBE00F00E3BBDB /* Supporting Files */,
+			);
+			path = OrbitTests;
+			sourceTree = "<group>";
+		};
+		EA07A0B517EBE00F00E3BBDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA07A0B617EBE00F00E3BBDB /* OrbitTests-Info.plist */,
+				EA07A0B717EBE00F00E3BBDB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA07A08117EBE00F00E3BBDB /* Orbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07A0BE17EBE00F00E3BBDB /* Build configuration list for PBXNativeTarget "Orbit" */;
+			buildPhases = (
+				EA07A07E17EBE00F00E3BBDB /* Sources */,
+				EA07A07F17EBE00F00E3BBDB /* Frameworks */,
+				EA07A08017EBE00F00E3BBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orbit;
+			productName = Orbit;
+			productReference = EA07A08217EBE00F00E3BBDB /* Orbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA07A0AC17EBE00F00E3BBDB /* OrbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07A0C117EBE00F00E3BBDB /* Build configuration list for PBXNativeTarget "OrbitTests" */;
+			buildPhases = (
+				EA07A0A917EBE00F00E3BBDB /* Sources */,
+				EA07A0AA17EBE00F00E3BBDB /* Frameworks */,
+				EA07A0AB17EBE00F00E3BBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA07A0B317EBE00F00E3BBDB /* PBXTargetDependency */,
+			);
+			name = OrbitTests;
+			productName = OrbitTests;
+			productReference = EA07A0AD17EBE00F00E3BBDB /* OrbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA07A07A17EBE00F00E3BBDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Orbit;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hamdan Javeed";
+				TargetAttributes = {
+					EA07A0AC17EBE00F00E3BBDB = {
+						TestTargetID = EA07A08117EBE00F00E3BBDB;
+					};
+				};
+			};
+			buildConfigurationList = EA07A07D17EBE00F00E3BBDB /* Build configuration list for PBXProject "Orbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA07A07917EBE00F00E3BBDB;
+			productRefGroup = EA07A08317EBE00F00E3BBDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA07A08117EBE00F00E3BBDB /* Orbit */,
+				EA07A0AC17EBE00F00E3BBDB /* OrbitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA07A08017EBE00F00E3BBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07A0A617EBE00F00E3BBDB /* Spaceship.png in Resources */,
+				EA07A0A817EBE00F00E3BBDB /* Images.xcassets in Resources */,
+				EA07A09E17EBE00F00E3BBDB /* Main_iPad.storyboard in Resources */,
+				EA07A09B17EBE00F00E3BBDB /* Main_iPhone.storyboard in Resources */,
+				EA07A09217EBE00F00E3BBDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07A0AB17EBE00F00E3BBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07A0B917EBE00F00E3BBDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA07A07E17EBE00F00E3BBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07A09417EBE00F00E3BBDB /* main.m in Sources */,
+				EA07A0A417EBE00F00E3BBDB /* OrbitMyScene.m in Sources */,
+				EA07A09817EBE00F00E3BBDB /* OrbitAppDelegate.m in Sources */,
+				EA07A0A117EBE00F00E3BBDB /* OrbitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07A0A917EBE00F00E3BBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07A0BB17EBE00F00E3BBDB /* OrbitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA07A0B317EBE00F00E3BBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA07A08117EBE00F00E3BBDB /* Orbit */;
+			targetProxy = EA07A0B217EBE00F00E3BBDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA07A09017EBE00F00E3BBDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07A09117EBE00F00E3BBDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA07A09917EBE00F00E3BBDB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07A09A17EBE00F00E3BBDB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EA07A09C17EBE00F00E3BBDB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07A09D17EBE00F00E3BBDB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EA07A0B717EBE00F00E3BBDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07A0B817EBE00F00E3BBDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA07A0BC17EBE00F00E3BBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA07A0BD17EBE00F00E3BBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA07A0BF17EBE00F00E3BBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit/Orbit-Prefix.pch";
+				INFOPLIST_FILE = "Orbit/Orbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA07A0C017EBE00F00E3BBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit/Orbit-Prefix.pch";
+				INFOPLIST_FILE = "Orbit/Orbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA07A0C217EBE00F00E3BBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Orbit.app/Orbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit/Orbit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrbitTests/OrbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA07A0C317EBE00F00E3BBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Orbit.app/Orbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit/Orbit-Prefix.pch";
+				INFOPLIST_FILE = "OrbitTests/OrbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA07A07D17EBE00F00E3BBDB /* Build configuration list for PBXProject "Orbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07A0BC17EBE00F00E3BBDB /* Debug */,
+				EA07A0BD17EBE00F00E3BBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07A0BE17EBE00F00E3BBDB /* Build configuration list for PBXNativeTarget "Orbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07A0BF17EBE00F00E3BBDB /* Debug */,
+				EA07A0C017EBE00F00E3BBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA07A0C117EBE00F00E3BBDB /* Build configuration list for PBXNativeTarget "OrbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07A0C217EBE00F00E3BBDB /* Debug */,
+				EA07A0C317EBE00F00E3BBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA07A07A17EBE00F00E3BBDB /* Project object */;
+}
